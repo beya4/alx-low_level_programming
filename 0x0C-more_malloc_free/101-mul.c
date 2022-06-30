@@ -48,7 +48,7 @@ return (NULL);
 newArray = malloc(nmemb * size);
 if (newArray == NULL)
 return (NULL);
-for (i = 0; i < (nmemb * size); i++
+for (i = 0; i < (nmemb * size); i++)
 *(newArray + i) = 0;
 return (newArray);
 }
